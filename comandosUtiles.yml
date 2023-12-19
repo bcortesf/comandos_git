@@ -1,0 +1,25 @@
+#  Limpiar la consola
+clear
+#  Listar archivos y carpetas
+ls
+#  Listar archivos y carpetas  +  archivosSubcarpetas ocultas
+ls -la
+
+
+#  Ver un archivo
+cat <nombreArchivo>
+# ver codigoHash de (ramaLocal<main> y ramaLocal<dev>): Ejemplo: id{"d112ec7"}
+cat .git/refs/heads/dev
+
+
+#  Crear directorio carpeta
+mkdir nombreCarpeta
+#  Cambiar el nombre de una carpeta, (Desde lista de carpetas que la contiene)
+mv nombreCarpeta/ nombreCarpetaRenombrada
+#  Entrar en carpeta creada (cualquiera de los dos)
+cd nombreCarpeta
+cd .git/
+#  Entrar una ruta de carpeta
+cd "d:/Desarrollo/Programando/Github/repositorioABC"
+# Devolverse una carpeta
+cd ..

@@ -1,0 +1,26 @@
+##  git solo commit en forma de arbol
+>   git log --all --decorate --oneline --graph
+
+
+#  B
+>  git ?
+
+#  B
+>  git ?
+
+-----------------------------------------
+-----------------------------------------
+https://www.google.com/search?q=git+lg+not+working&oq=git+lg+&aqs=chrome.6.69i57j0i512j0i22i30l3j0i10i22i30j0i22i30j0i10i22i30j0i22i30l2.6461j0j7&gs_lcrp=EgZjaHJvbWUqCAgGEAAYFhgeMgYIABBFGDkyBwgBEAAYgAQyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCggFEAAYChgWGB4yCAgGEAAYFhgeMgoIBxAAGAoYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg2NDYxajBqN6gCALACAA==&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
+
+https://coderwall.com/p/euwpig/a-better-git-log
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+-----------------------------------------
+-----------------------------------------
+
+##  git solo commit en forma de arbol
+>   git log --all --decorate --oneline --graph
+
+##  git solo commit en forma de arbol  ==> (PERSONALIZADO)
+>   git lg
